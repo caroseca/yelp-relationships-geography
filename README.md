@@ -14,6 +14,8 @@ The file `03-process-counts.ipynb` processes the raw word counts to get intermed
 
 The file `04-output-files.ipynb` outputs the final, fully processed results files as reflected in the paper. These files are located in the directory `final_output_urbcomp/` and include `all_counts_final_v2.csv` (unnormalized word counts per POI, for all metro areas), `all_counts_norm_final_v2.csv` (the normalized version of the previous file), and `num_businesses.csv` (for each relationship word, the number of POIs with at least one occurrence in their reviews).
 
+The file `05-quadrat-analysis-visualizations.ipynb` creates visualizations for Boston businesses. The file first creates a cleaned dataset that only includes Boston business and then creates various quadrat-based scatterplots and heatmaps to spatially visualize the different business types and their most frequent related relationship types.
+
 #### Notes for if you want to continue with new Yelp Open Dataset data
 Note that this repository does not contain the most recent version of the [Yelp Open Dataset](https://www.yelp.com/dataset).
 
