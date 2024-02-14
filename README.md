@@ -1,5 +1,9 @@
 # Yelp, Relationships, & Geography
 
+Update 2/13/24: Note that the version of this codebase was forked and edited by students in University of Michigan, SI699. The data was trimmed for ease of use and brevity.
+
+---
+
 The original data must be downloaded from the [Yelp Open Dataset](https://www.yelp.com/dataset) as it is too big to upload to GitHub. The dataset is provided in JSON format, but you can use the [example code provided by Yelp](https://github.com/Yelp/dataset-examples/blob/master/json_to_csv_converter.py) to convert them to CSV. The only file you need from the dataset to run our analysis is `yelp_academic_dataset_review.csv` (after converting to CSV). Our file included here called `YelpChallengeWMetros_Clean.csv` is a cleaned version of `yelp_academic_dataset_business.csv` that you would get from downloading the dataset and running it through the converter.
 
 The file `01-get-data-by-metro.ipynb` contains code for taking the raw reviews data and creating new files in the `small_reviews_urbcomp/` directory that divide the reviews by metro area for easier processing. Due to large file sizes, we only include the file for Boulder, CO (`yelp_academic_dataset_reviews_Boulder.csv`) in this repository.
